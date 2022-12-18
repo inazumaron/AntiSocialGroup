@@ -1,11 +1,7 @@
 import { NgModule } from '@angular/core';
-import { NzButtonModule } from 'ng-zorro-antd/button';
-import { NzDividerModule } from 'ng-zorro-antd/divider';
-import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzImageModule } from 'ng-zorro-antd/image';
 import { NzTabsModule } from 'ng-zorro-antd/tabs';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
-import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -31,13 +27,9 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NzButtonModule,
-    NzDividerModule,
-    NzGridModule,
     NzImageModule,
     NzTabsModule,
     NzLayoutModule,
-    NzTypographyModule,
     NzTableModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],

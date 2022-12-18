@@ -1,0 +1,48 @@
+.content {
+    padding: 5vh;
+    height: 100%;
+}
+
+.header {
+    color: white;
+    size: 2vh;
+    width: 100%;
+    position: fixed;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parallax {
+    background-image: url("/assets/coverImg.png");
+
+    min-height: 500px;
+    height: 50%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("/assets/coverImg2.jpg");
+
+    min-height: 500px;
+    height: 50%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
